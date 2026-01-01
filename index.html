@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموسوعة المورفولوجية للنبات - النسخة الكاملة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .highlight { color: #15803d; font-weight: 800; background-color: #dcfce7; padding: 0 4px; border-radius: 4px; }
+        .latin { font-family: 'Times New Roman', serif; font-style: italic; color: #1d4ed8; display: inline-block; direction: ltr; }
+        .section-box { background: #ffffff; border: 1px solid #e2e8f0; padding: 2rem; border-radius: 1rem; margin-bottom: 2rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+        .section-title { background: linear-gradient(to left, #f0fdf4, #ffffff); border-right: 6px solid #16a34a; padding: 1rem; margin-bottom: 1.5rem; border-radius: 8px; font-size: 1.5rem; font-weight: 900; color: #14532d; }
+        .sub-title { font-size: 1.25rem; font-weight: 800; color: #15803d; margin-top: 1.5rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+        .sub-title::before { content: ''; width: 8px; height: 8px; background-color: #15803d; border-radius: 50%; display: inline-block; }
+        ul.custom-list { list-style: none; padding-right: 1.5rem; }
+        ul.custom-list li { position: relative; margin-bottom: 0.5rem; line-height: 1.7; }
+        ul.custom-list li::before { content: '▪'; color: #16a34a; font-weight: bold; position: absolute; right: -1.5rem; top: 0; }
+        ol.custom-ol { list-style: decimal; padding-right: 1.5rem; margin-bottom: 1rem; }
+        ol.custom-ol li { margin-bottom: 0.5rem; font-weight: bold; }
+        ol.custom-ol li span { font-weight: normal; }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 w-full bg-white/95 backdrop-blur shadow-md z-50 border-b border-green-100">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <h1 class="text-xl font-black text-green-900">الموسوعة <span class="text-green-600">النباتية</span></h1>
+                
+                <!-- الزر الجديد: يفتح في نفس النافذة -->
+                <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-blue-700 transition shadow-sm">
+                    فتح الموقع الثاني
+                </a>
+            </div>
+
+            <div class="hidden lg:flex gap-5 text-sm font-bold text-slate-700">
+                <a href="#seeds" class="hover:text-green-600 transition">البذور</a>
+                <a href="#germination" class="hover:text-green-600 transition">الإنبات</a>
+                <a href="#roots" class="hover:text-green-600 transition">الجذور</a>
+                <a href="#stems" class="hover:text-green-600 transition">السيقان</a>
+                <a href="#leaves" class="hover:text-green-600 transition">الأوراق</a>
+                <a href="#cell" class="hover:text-green-600 transition">الخلية</a>
+                <a href="#anatomy" class="hover:text-green-600 transition">التشريح</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="py-20 text-center px-4 bg-gradient-to-b from-green-50 to-slate-50 border-b">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">تلخيص شامل للمنهج كاملاً<br><span class="text-green-600">من صفحة 1 إلى 53</span></h1>
+            <div class="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full border border-green-200 shadow-sm">
+                <span class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
+                <span class="font-bold text-green-800">إعداد: عبدالرحمن احمد محمد مبروك 780</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 max-w-6xl">
+
+        <!-- ================= البذور ================= -->
+        <section id="seeds" class="section-box">
+            <div class="section-title">أولاً: تعريف البذرة وأهميتها (ص 1)</div>
+            
+            <h3 class="sub-title">البذرة</h3>
+            <p class="mb-4 text-lg">هي جزء من النبات يحتوي على جنين صغير في حالة سكون معه غذاء ومحاطة بغلاف للحماية.</p>
+            
+            <h3 class="sub-title">أهمية البذور</h3>
+            <ol class="custom-ol">
+                <li><span>وسيلة التكاثر الرئيسية للنباتات الزهرية.</span></li>
+                <li><span>مصدر غذاء مهم للإنسان والحيوان (قمح - أرز - ذرة - فول - عدس).</span></li>
+                <li><span>مصدر للزيوت والصناعات الغذائية.</span></li>
+                <li><span>تستخدم في الكثير من الصناعات.</span></li>
+            </ol>
+
+            <div class="border-t my-8"></div>
+
+            <div class="section-title">ثانياً: أجزاء البذرة (ص 2)</div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="sub-title">1. الجنين (<span class="latin">Embryo</span>)</h3>
+                    <p class="mb-2">هو نبات جديد في طور التكوين يتكون من:</p>
+                    <ul class="custom-list">
+                        <li><span class="highlight">الريشة (Plumule):</span> القمة الجنينية العليا التي تنمو ويخرج منها الساق والأوراق.</li>
+                        <li><span class="highlight">الجذير (Radicle):</span> جزء الجنين الذي يتكون منه الجذر.</li>
+                        <li><span class="highlight">الفلقة / الفلقتين (Cotyledon):</span> مخزن الغذاء للجنين.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="sub-title">2. النسيج المغذي (<span class="latin">Endosperm</span>)</h3>
+                    <p>مكان تخزين الغذاء، قد يكون داخل الفلقتين أو في نسيج خاص بالبذرة.</p>
+                    
+                    <h3 class="sub-title">3. غلاف البذرة (<span class="latin">Seed coat/Testa</span>)</h3>
+                    <p class="mb-2">يحمي الجنين ومكون من القصرة الخارجية والاندوسبرم وفق نوع البذرة.</p>
+                    <p class="font-bold mb-1">أجزاء مهمة في الغلاف:</p>
+                    <ul class="custom-list">
+                        <li><span class="highlight">السرة (Hilum):</span> مكان اتصال البذرة بالأم.</li>
+                        <li><span class="highlight">النقير (Micropyle):</span> فتحة يدخل منها الماء لبدء الإنبات.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t my-8"></div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <div class="section-title">ثالثاً: أنواع البذور حسب عدد الفلقات (ص 3)</div>
+                    <ul class="custom-list">
+                        <li><strong>بذور ذات فلقة واحدة (<span class="latin">Monocotyledons</span>):</strong> مثل الأرز - الذرة - القمح.</li>
+                        <li><strong>بذور ذات فلقتين (<span class="latin">Dicotyledons</span>):</strong> مثل الفول - العدس - الفاصوليا - الخيار.</li>
+                        <li><strong>بذور عديدة الفلقات:</strong> تحتوي على أكثر من فلقتين.</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="section-title">رابعاً: أنواع البذور حسب تخزين الغذاء</div>
+                    <ul class="custom-list">
+                        <li><strong>بذور اندوسبرمية:</strong> الغذاء مختزن في الاندوسبرم مثل الذرة.</li>
+                        <li><strong>بذور غير اندوسبرمية:</strong> الغذاء مختزن داخل الفلقات مثل الفول - الترمس.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= الإنبات ================= -->
+        <section id="germination" class="section-box">
+            <div class="section-title">خامساً: إنبات البذور (ص 4)</div>
+            
+            <div class="bg-green-50 p-4 rounded-lg mb-6 border border-green-200">
+                <strong>تعريف الإنبات:</strong> قدرة البذرة على إعطاء نبات جديد عند توفر الظروف المناسبة وإمتصاص الماء.
+            </div>
+
+            <h3 class="sub-title">عمليات الإنبات</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div class="bg-white p-4 border rounded-lg shadow-sm">
+                    <strong class="text-green-700 block mb-2">1. عمليات طبيعية:</strong>
+                    <ul class="custom-list">
+                        <li>امتصاص الماء.</li>
+                        <li>انتفاخ الخلايا.</li>
+                        <li>تمزق غلاف البذرة.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 border rounded-lg shadow-sm">
+                    <strong class="text-green-700 block mb-2">2. عمليات كيميائية:</strong>
+                    <ul class="custom-list">
+                        <li>تنشيط الإنزيمات.</li>
+                        <li>هضم الغذاء المختزن وتحويله إلى سكريات وأحماض أمينية.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="sub-title">سادساً: أنواع الإنبات (ص 4-5)</h3>
+            <ul class="custom-list mb-6">
+                <li><strong>الإنبات الأرضي (<span class="latin">Hypogeal</span>):</strong> تبقى الفلقتان تحت سطح التربة. ينمو الجذير ويهبط للأسفل ثم يظهر الساق فوق التربة. (يحدث غالباً في البذور ذات الفلقة الواحدة).</li>
+                <li><strong>الإنبات الهوائي (<span class="latin">Epigeal</span>):</strong> ترتفع الفلقتان فوق سطح التربة مع نمو القمة الجنينية العليا.</li>
+            </ul>
+
+            <h3 class="sub-title">سابعاً: العوامل البيئية المؤثرة على الإنبات (ص 5-6)</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div class="bg-blue-50 p-4 rounded border border-blue-100">
+                    <strong>1. الماء:</strong> ضروري للتنشيط والتمثيل الغذائي. امتصاص الماء يجعل البذرة تنتفخ ويدخل الماء عبر النقير. نقص الماء يوقف الإنبات.
+                </div>
+                <div class="bg-red-50 p-4 rounded border border-red-100">
+                    <strong>2. الحرارة:</strong> المثلى بين 20-30 درجة.
+                    <br>تنقسم إلى:
+                    <br>- <strong>صغرى:</strong> أقل ما يمكن حدوث الإنبات عنده.
+                    <br>- <strong>مثلى:</strong> أعلى معدل إنبات.
+                    <br>- <strong>قصوى:</strong> أعلى درجة يتحملها النبات قبل توقف الإنبات.
+                </div>
+                <div class="bg-gray-50 p-4 rounded border border-gray-200">
+                    <strong>3. الأكسجين:</strong> ضروري للتنفس وتمثيل الغذاء. انخفاضه يضعف الإنبات. الدفن العميق يسبب نقص أكسجين البذور.
+                </div>
+                <div class="bg-yellow-50 p-4 rounded border border-yellow-200">
+                    <strong>4. الضوء:</strong> بعض البذور تحتاج ضوء للإنبات مثل الفجل، وبعضها لا تنبت إلا في الظلام.
+                </div>
+            </div>
+
+            <h3 class="sub-title">ثامناً: العوامل الداخلية المؤثرة (ص 7)</h3>
+            <ul class="custom-list">
+                <li><strong>سكون البذور (<span class="latin">Seed dormancy</span>):</strong> أسبابه (صلابة القصرة - عدم نضج الجنين - الأجنة الساكنة).</li>
+                <li><strong>حيوية البذور (<span class="latin">Seed viability</span>):</strong> تختلف مدة صلاحية البذور. (بذور القمح تبقى حية بالتربة لأكثر من 10 سنوات).</li>
+            </ul>
+
+            <h3 class="sub-title">تاسعاً: التغيرات التي تحدث أثناء الإنبات</h3>
+            <ul class="custom-list">
+                <li><strong>تغيرات فيزيائية:</strong> انتفاخ البذرة، تمزق غلاف البذرة، زيادة حجمها وامتصاص الماء.</li>
+                <li><strong>تغيرات كيميائية:</strong> نشاط الإنزيمات، تحويل المواد الغذائية.</li>
+                <li><strong>تغيرات حيوية:</strong> انقسام الخلايا، نمو الجنين وتحوله لنبات صغير.</li>
+            </ul>
+        </section>
+
+        <!-- ================= الانتشار ================= -->
+        <section id="dispersal" class="section-box">
+            <div class="section-title">عاشراً: طرق انتشار البذور (ص 8-10)</div>
+            <p class="mb-4">تنشر النباتات بذورها لضمان بقاء النوع وتباعدها عن النبات الأم.</p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-50 p-4 rounded border">
+                    <h4 class="font-bold text-green-700 mb-2">1. الانتشار بواسطة الرياح</h4>
+                    <p>خصائص البذور:</p>
+                    <ul class="custom-list text-sm">
+                        <li>صغيرة وخفيفة الوزن.</li>
+                        <li>وجود زوائد كالأجنحة أو شعيرات.</li>
+                        <li>أمثلة: بذور القطن - الهندباء.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-4 rounded border">
+                    <h4 class="font-bold text-green-700 mb-2">2. الانتشار بواسطة الماء</h4>
+                    <ul class="custom-list text-sm">
+                        <li>البذور خفيفة وقادرة على الطفو.</li>
+                        <li>يغلفها غلاف قوي غير منفذ للماء.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-4 rounded border">
+                    <h4 class="font-bold text-green-700 mb-2">3. الانتشار بواسطة الحيوانات</h4>
+                    <ul class="custom-list text-sm">
+                        <li><strong>خارجياً:</strong> تلتصق بالفراء أو الريش (وجود أشواك أو خطاطيف - وجود مادة لاصقة).</li>
+                        <li><strong>داخلياً:</strong> تؤكل البذور مع الثمار وتخرج مع الفضلات دون تلف.</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-50 p-4 rounded border">
+                    <h4 class="font-bold text-green-700 mb-2">4. الانتشار بالتفجير (<span class="latin">Explosive fruits</span>)</h4>
+                    <ul class="custom-list text-sm">
+                        <li>بعض الثمار تنفجر عند النضج.</li>
+                        <li>مثل: الحندقوق، الخروع.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="sub-title">الحادي عشر: التعديلات التي تساعد على انتشار البذور (ص 10)</h3>
+            <p>وجود أجنحة، شعيرات، خطاطيف - غلاف قوي مقاوم للماء - ثمار بها تجاويف هوائية - بذور خفيفة الوزن - طفو الثمار على الماء.</p>
+        </section>
+
+        <!-- ================= المورفولوجيا والجذور ================= -->
+        <section id="roots" class="section-box">
+            <div class="section-title">الثاني عشر: الشكل الظاهري للنبات الزهري (ص 11)</div>
+            <p class="mb-2">تشمل أعضاء النبات: الجذور - السيقان - الأوراق - الأزهار - الثمار - البذور.</p>
+            <p class="mb-6 text-sm text-gray-600">النباتات الزهرية نوعان: ذوات الفلقة الواحدة - ذوات الفلقتين.</p>
+
+            <div class="section-title">الثالث عشر: نظام الجذر (ص 12)</div>
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <strong class="block mb-2 text-green-700">خصائص الجذور:</strong>
+                    <ul class="custom-list">
+                        <li>تنمو تحت سطح التربة.</li>
+                        <li>لا تحتوي على كلوروفيل.</li>
+                        <li>لا تنتج أوراقاً.</li>
+                        <li>لا توجد عقد سلاميات.</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong class="block mb-2 text-green-700">وظائف الجذر:</strong>
+                    <ol class="custom-ol">
+                        <li><span>تثبيت النبات.</span></li>
+                        <li><span>امتصاص الماء والأملاح.</span></li>
+                        <li><span>تخزين الغذاء.</span></li>
+                        <li><span>التنفس.</span></li>
+                        <li><span>التخلص من المواد الزائدة.</span></li>
+                    </ol>
+                </div>
+            </div>
+
+            <h3 class="sub-title">تركيب الجذر (ص 13-14)</h3>
+            <div class="space-y-4 mb-8">
+                <div class="bg-gray-50 p-3 rounded">
+                    <strong>1. منطقة القلنسوة (<span class="latin">Root Cap</span>):</strong> تحمي قمة الجذر - تسهل اختراق التربة.
+                </div>
+                <div class="bg-gray-50 p-3 rounded">
+                    <strong>2. منطقة القمة النامية (<span class="latin">Meristematic region</span>):</strong> انقسام الخلايا لزيادة طول الجذر.
+                </div>
+                <div class="bg-gray-50 p-3 rounded">
+                    <strong>3. منطقة الاستطالة:</strong> زيادة طول الجذر بسرعة - امتصاص الماء والعناصر.
+                </div>
+                <div class="bg-gray-50 p-3 rounded">
+                    <strong>4. منطقة الشعيرات الجذرية:</strong> تمثل منطقة الامتصاص الرئيسية - وجود شعيرات رقيقة لزيادة المساحة.
+                </div>
+                <div class="bg-gray-50 p-3 rounded">
+                    <strong>5. المنطقة الدائمة:</strong> خلايا كبيرة وثابتة الشكل - لا يحدث لها استطالة.
+                </div>
+            </div>
+
+            <div class="section-title">تصنيف الجذور حسب المنشأ (ص 15)</div>
+            
+            <div class="mb-6 border-l-4 border-green-500 pl-4">
+                <h4 class="font-bold text-xl text-green-800 mb-2">(1) الجذور الأصلية (الوتدية)</h4>
+                <p class="mb-2">تنشأ من الجذير الجنيني مباشرة وتمتد لأسفل مع تفرعات جانبية.</p>
+                <p class="mb-2 text-sm text-gray-600">أمثلة: القطن - الطماطم - الفول - عباد الشمس.</p>
+                <strong>أنواعها:</strong>
+                <ul class="custom-list mt-2 ml-4">
+                    <li>الجذر الوتدي العادي.</li>
+                    <li>الجذور الوتدية المدخرة (بأشكال):
+                        <br>- مخروطي (الجزر).
+                        <br>- مغزلي (الفجل).
+                        <br>- لفتي (اللفت - القلقاس).
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-6 border-l-4 border-green-500 pl-4">
+                <h4 class="font-bold text-xl text-green-800 mb-2">(2) الجذور العرضية (ص 16)</h4>
+                <p class="mb-2">لا تنشأ من الجنين بل من الساق أو الأوراق، كثيرة ورفيعة.</p>
+                <strong>أنواعها:</strong>
+                <ul class="custom-list mt-2 grid md:grid-cols-2">
+                    <li>الجذور الليفية (القمح - الشعير).</li>
+                    <li>الجذور المدخرة (البطاطا الحلوة).</li>
+                    <li>الجذور الدعامية (الذرة - قصب السكر).</li>
+                    <li>الجذور المتسلقة.</li>
+                    <li>الجذور الشادة.</li>
+                    <li>الجذور الهوائية (التين البنغالي).</li>
+                    <li>الجذور التنفسية (ابن مينا).</li>
+                    <li>الجذور الماصة (الحامول - الهالوك).</li>
+                </ul>
+            </div>
+
+            <div class="mb-6 border-l-4 border-green-500 pl-4">
+                <h4 class="font-bold text-xl text-green-800 mb-2">(3) الجذور الجنينية</h4>
+                <p>أول جذور مؤقتة بعد الإنبات تنتهي وظيفتها بعد ظهور الجذر الحقيقي. مثل: القمح - الذرة.</p>
+            </div>
+        </section>
+
+        <!-- ================= الساق ================= -->
+        <section id="stems" class="section-box">
+            <div class="section-title">المجموع الخضري: الساق (ص 17)</div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <strong class="block mb-2 text-green-700">خصائص الساق:</strong>
+                    <ul class="custom-list">
+                        <li>خضراء لوجود الكلوروفيل.</li>
+                        <li>تحمل الأوراق والزهور والثمار.</li>
+                        <li>تتكون من: العقد - السلاميات - براعم جانبية - برعم طرفي.</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong class="block mb-2 text-green-700">وظائف الساق (ص 18):</strong>
+                    <ul class="custom-list">
+                        <li>دعم وحمل أجزاء النبات.</li>
+                        <li>نقل الماء والغذاء.</li>
+                        <li>البناء الضوئي.</li>
+                        <li>تخزين الغذاء.</li>
+                        <li>التكاثر الخضري.</li>
+                        <li>إعطاء الشكل العام للنبات.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="sub-title">تقسيم الساق</h3>
+            <div class="space-y-2 mb-6">
+                <p><strong>حسب الصلابة:</strong> سيقان عشبية (البسلة - الفول - العدس) - سيقان خشبية (الأشجار والشجيرات).</p>
+                <p><strong>حسب المظهر الخارجي:</strong> سيقان ملساء - سيقان زغبية - سيقان شوكية (الورد - عباد الشمس).</p>
+            </div>
+
+            <h3 class="sub-title">أنواع الساق حسب مكان النمو (ص 19-21)</h3>
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <strong class="text-blue-800 text-lg block mb-2">(1) السيقان الهوائية</strong>
+                    <ul class="custom-list text-sm">
+                        <li><strong>القائمة:</strong> تنمو رأسياً دون مساعدة (النخيل - الكازورينا).</li>
+                        <li><strong>الزاحفة:</strong> ممتدة على سطح التربة ولا تنمو رأسياً.</li>
+                        <li><strong>الجارية:</strong> أفقية فوق سطح الأرض وتحمل جذور عرضية (مثال مهم: الفراولة).</li>
+                        <li><strong>المتسلقة:</strong> تحتاج دعامات (وسائل التعلق: الالتفاف، المحاليق، الأشواك).</li>
+                        <li><strong>الساق القزمية:</strong> عقد وسلاميات قصيرة جداً (الصنوبر).</li>
+                        <li><strong>الساق القصيرة:</strong> أوراق كثيفة متقاربة (اللفت والفجل).</li>
+                        <li><strong>السيقان العصيرية:</strong> تخزن الماء والغذاء (الصبار).</li>
+                    </ul>
+                </div>
+                <div class="bg-amber-50 p-4 rounded-lg">
+                    <strong class="text-amber-800 text-lg block mb-2">(2) السيقان الأرضية</strong>
+                    <ul class="custom-list text-sm">
+                        <li><strong>الريزوم:</strong> ساق أرضية أفقية تحت التربة (الجنزبيل - النعنع).</li>
+                        <li><strong>الكورمة:</strong> ساق أرضية قصيرة متضخمة تخزن الغذاء (كورمة القلقاس).</li>
+                        <li><strong>الدرنة:</strong> ساق أرضية متضخمة عليها براعم (البطاطس).</li>
+                        <li><strong>البصلة:</strong> ساق قرصية تحمل قواعد أوراق تخزن الغذاء (البصل - الثوم).</li>
+                        <li><strong>الفسيلة:</strong> برعم جانبي يعطي نباتاً مستقلاً (الموز - النخيل).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 class="sub-title">تحورات الساق (ص 22)</h3>
+            <p class="mb-6">سوق متورقة (للبناء الضوئي) - سوق محلاقية (للتسلق) - سوق شوكية (للحماية) - سوق زهرية (لحمل الأزهار).</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="sub-title">البراعم (ص 22-23)</h3>
+                    <p class="mb-2"><strong>تعريف:</strong> قمة قصيرة تحتوي خلايا مرستيمية ومحاطة بأوراق حرشفية للحماية.</p>
+                    <ul class="custom-list text-sm">
+                        <li><strong>أماكن الوجود:</strong> طرفية - إبطية.</li>
+                        <li><strong>أنواع (الموضع):</strong> طرفية - إبطية - إضافية - عرضية.</li>
+                        <li><strong>أنواع (التركيب):</strong> مغلفة - عارية.</li>
+                        <li><strong>أنواع (الوظيفة):</strong> خضرية - زهرية - مختلطة.</li>
+                        <li><strong>حسب الموسم:</strong> صيفية - شتوية (مغلفة).</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="sub-title">تفرع الساق والتكاثر (ص 24)</h3>
+                    <ul class="custom-list text-sm">
+                        <li><strong>تفرع غير محدود:</strong> يستمر البرعم الطرفي في النمو.</li>
+                        <li><strong>تفرع محدود:</strong> يتوقف البرعم الطرفي ويستبدل بجانبي (بشعبة - بشعبتين - بعدة شعب).</li>
+                    </ul>
+                    <div class="bg-green-50 p-3 rounded mt-4">
+                        <strong>التكاثر الخضري بواسطة الساق (3 طرق):</strong>
+                        <br>1. التعقيل.
+                        <br>2. التطعيم.
+                        <br>3. الترقيد.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= الأوراق (مكتمل) ================= -->
+        <section id="leaves" class="section-box">
+            <div class="section-title">الأوراق (ص 24-25)</div>
+            
+            <div class="mb-6">
+                <strong class="text-green-700">وظائف الأوراق:</strong> البناء الضوئي - التغذية - صناعة الأدوية والعطور - استخراج الألياف والزيوت - التخلص من الماء الزائد بالنتح.
+                <br><strong class="text-green-700">تركيب الورقة:</strong> النصل - العنق - القاعدة.
+                <br><strong class="text-green-700">أنواع الأوراق:</strong> بسيطة - مركبة.
+            </div>
+
+            <div class="grid md:grid-cols-1 gap-6 mb-8">
+                <div class="bg-gray-50 p-6 rounded-lg border">
+                    <strong class="block mb-4 text-green-800 text-xl border-b pb-2">أشكال النصل (ص 25)</strong>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+                        <div class="p-2 bg-white rounded shadow-sm">ابري (الصنوبر)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">شريطي (النجيليات)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">رمحي (الدفلة - النعناع)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">بيضي (الدورانتا - الملوخية)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">بيضاوي (الياسمين الزفر)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">مستطيل (اللبخ)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">قلبي (المشمش - البطاطا)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">ملعقى (الرجلة - الأقحوان)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">دائري (البلارجونيم)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">أنبوبي (البصل)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">مزراقي (العليق)</div>
+                        <div class="p-2 bg-white rounded shadow-sm">شبه مثلث (الحور)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- بقية تفاصيل الأوراق (ص 26-28) -->
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-white border p-4 rounded">
+                    <strong class="block mb-2 text-green-700">حافة النصل (ص 26)</strong>
+                    <ul class="custom-list text-sm">
+                        <li>كاملة (الكافور).</li>
+                        <li>منشارية (الملوخية - وريقات الورد).</li>
+                        <li>مسننة (المشمش).</li>
+                        <li>متموجة (التوت - الخطمية).</li>
+                        <li>شوكية (الصبار).</li>
+                        <li>مفصصة ريشياً (الفجل) أو راحياً (الخروع).</li>
+                        <li>خيطية (الشبت).</li>
+                    </ul>
+                </div>
+                <div class="bg-white border p-4 rounded">
+                    <strong class="block mb-2 text-green-700">قمة النصل (ص 26)</strong>
+                    <ul class="custom-list text-sm">
+                        <li>حادة أو مدببة (الريحان).</li>
+                        <li>مستدقة (الدورانتا).</li>
+                        <li>مستدقة مذنبة (الفيكس).</li>
+                        <li>مستديرة (البتسبورم - البرميولا).</li>
+                        <li>مسطحة (اللبخ).</li>
+                        <li>معقودة (الخروب - البرسيم).</li>
+                        <li>منخفضة (مثل اوراق نبات خف الجمل).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-white border p-4 rounded">
+                    <strong class="block mb-2 text-green-700">ترتيب الأوراق على الساق (ص 26-27)</strong>
+                    <ul class="custom-list text-sm">
+                        <li>متبادل (القمح - الشعير - الملوخية).</li>
+                        <li>متقابل (متقابل متعامد: الدورانتا والسمسم - سواري: الدفلة).</li>
+                    </ul>
+                </div>
+                <div class="bg-white border p-4 rounded">
+                    <strong class="block mb-2 text-green-700">التعريق الورقي (ص 27)</strong>
+                    <ul class="custom-list text-sm">
+                        <li>شبكي (في ثنائيات الفلقة: الورد - الفول).</li>
+                        <li>متواز (في أحاديات الفلقة: الذرة - الأرز - الموز).</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">تحورات وأنواع خاصة للأوراق (ص 27)</h3>
+                <p>أوراق خضرية - أوراق فلقية - أوراق أولية - أوراق حرشفية (البصل والثوم) - أوراق شوكية - أوراق محلاقية - أوراق تكاثرية - أوراق زهرية.</p>
+            </div>
+
+            <div class="bg-red-50 border border-red-200 p-5 rounded-xl">
+                <h3 class="text-xl font-bold text-red-800 mb-2">الأوراق آكلة الحشرات (ص 28)</h3>
+                <p class="mb-4 text-sm"><strong>سبب التحور:</strong> نقص العناصر الغذائية في التربة.</p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <strong class="text-red-700">1. نبات حامل الماء:</strong> يعيش في المستنقعات وله أكياس مصيدة للحشرات الدقيقة.
+                    </div>
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <strong class="text-red-700">2. نبات الإبريق:</strong> تتحور الورقة لتكون إبريق به غطاء وتجويف ومادة هاضمة.
+                    </div>
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <strong class="text-red-700">3. نبات ورد الشمس:</strong> أوراق بها شعيرات لاصقة وإنزيمات هاضمة.
+                    </div>
+                    <div class="bg-white p-3 rounded shadow-sm">
+                        <strong class="text-red-700">4. نبات خناق الذباب:</strong> تنغلق الورقة فجائياً على الحشرة ثم تهضمها.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= الخلية والنظرية الخلوية ================= -->
+        <section id="cell" class="section-box">
+            <div class="section-title">تلخيص الخلية النباتية والأنسجة (من ص 77)</div>
+            
+            <div class="mb-6">
+                <h3 class="sub-title">أولاً: الخلية النباتية (ص 29)</h3>
+                <p class="mb-2"><strong>تعريف:</strong> هي الوحدة الأساسية في بناء الكائن النباتي والقيام بوظائفه الحيوية. قد يكون النبات مكوناً من خلية واحدة أو عدد كبير من الخلايا.</p>
+            </div>
+
+            <div class="mb-6 bg-slate-50 p-4 rounded border">
+                <h3 class="sub-title">ثانياً: نظرية الخلية (ص 29-30)</h3>
+                <p class="mb-2"><strong>وضع النظرية:</strong> شلايدن (عالم النبات) - شوان (عالم الحيوان).</p>
+                <strong>مبادئ النظرية:</strong>
+                <ol class="custom-ol mt-2">
+                    <li><span>الخلية هي وحدة بناء وتركيب الكائن الحي.</span></li>
+                    <li><span>جميع الخلايا تتشابه في التركيب والوظيفة الأساسية.</span></li>
+                    <li><span>جميع الخلايا تنشأ من خلايا قبلها عن طريق الانقسام.</span></li>
+                    <li><span>جسم الكائن الحي يتكون من امتداد الخلايا الجنينية التي انقسمت.</span></li>
+                    <li><span>تختلف الخلايا في الشكل والوظيفة طبقاً لموقعها في النسيج.</span></li>
+                </ol>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">ثالثاً: أنواع الخلايا حسب النواة (ص 30)</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="p-3 border rounded bg-white">
+                        <strong>1. خلايا بدائية النواة:</strong> لا تحتوي على نواة حقيقية (المادة الوراثية في السيتوبلازم). توجد في البكتيريا والطحالب الخضراء المزرقة.
+                    </div>
+                    <div class="p-3 border rounded bg-white">
+                        <strong>2. خلايا حقيقية النواة:</strong> تحتوي على نواة حقيقية محاطة بغشاء نووي وعضيات. (الخلايا النباتية مثال عليها).
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">رابعاً: تركيب الخلية النباتية (ص 30-32)</h3>
+                
+                <div class="bg-white p-4 border rounded-lg mb-4">
+                    <strong class="text-green-800 text-lg block mb-2">1- الجدار الخلوي</strong>
+                    <ul class="custom-list mb-2">
+                        <li><strong>وظيفته:</strong> منح الشكل الثابت - الحماية - تنظيم دخول وخروج المواد - تحمل الضغط الداخلي.</li>
+                        <li><strong>طبقات الجدار:</strong>
+                            <br>1. الطبقة الوسطى (مواد بكتينية، إلصاق الخلايا).
+                            <br>2. الجدار الابتدائي (يتكون أثناء النمو، مرن).
+                            <br>3. الجدار الثانوي (بعد توقف النمو، أكثر صلابة، سليلوز ولجنين).
+                        </li>
+                    </ul>
+                    <strong class="block mt-2">2- الثقوب الجدارية:</strong> مناطق رقيقة تسمح بانتقال المواد. (أنواعها: بسيطة - محاطة بحافة - نصف محاطة).
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">خامساً: البروتوبلازم ومكوناته (ص 32-33)</h3>
+                <ul class="custom-list">
+                    <li><strong>1- السيتوبلازم:</strong> وسط شبه سائل يضم معظم العضيات ويقوم بالأنشطة الحيوية.</li>
+                    <li><strong>2- النواة:</strong> تحتوي المادة الوراثية - محاطة بغشاء نووي - تحتوي النوية والجينات.</li>
+                    <li><strong>3- الشبكة الإندوبلازمية:</strong> مسؤولة عن تصنيع البروتينات والدهون (خشنة: بروتين / ناعمة: دهون).</li>
+                    <li><strong>4- الرايبوسومات:</strong> مسؤولة عن بناء البروتينات.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">سادساً: البلاستيدات (ص 33-34)</h3>
+                <ul class="custom-list">
+                    <li><strong>البلاستيدة الخضراء:</strong> مسؤولة عن البناء الضوئي (تحتوي مادة خضراء، أغشية وقرصيات).</li>
+                    <li><strong>البلاستيدات الملونة:</strong> تحتوي أصباغ متعددة (تعطي ألوان الثمار والبتلات).</li>
+                    <li><strong>البلاستيدات عديمة اللون:</strong> تخزن المواد الغذائية (النشا والزيوت والبروتينات).</li>
+                </ul>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-6">
+                <div>
+                    <h3 class="sub-title">سابعاً: الميتوكوندريا (ص 34)</h3>
+                    <p>مكان حدوث التنفس وإنتاج الطاقة. لها غشاء خارجي وداخلي به ثنيات. تحتوي DNA و RNA.</p>
+                </div>
+                <div>
+                    <h3 class="sub-title">ثامناً: جهاز جولجي (ص 34)</h3>
+                    <p>يعمل على تجميع وتغليف وتخزين المواد. يكون الحويصلات والخارج من الخلية.</p>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">تاسعاً: الفجوة العصارية (ص 35)</h3>
+                <p>تشغل غالباً جزءاً كبيراً من الحجم. تخزن الماء والأملاح. تساعد في التخلص من الفضلات. تحافظ على الضغط الداخلي.</p>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="sub-title">عاشراً: المواد غير الحية داخل الخلية (ص 35-36)</h3>
+                <ul class="custom-list">
+                    <li><strong>1- المواد الغذائية:</strong> النشا - البروتينات - الدهون.</li>
+                    <li><strong>2- البلورات:</strong> المنشورية - النجمية - الإبرية - العصوية الطويلة.</li>
+                </ul>
+            </div>
+
+            <div class="border-t my-8"></div>
+
+            <div class="section-title">الحادي عشر: الأنسجة النباتية (ص 36-38)</div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="sub-title">أولاً: الأنسجة الميرستيمية</h3>
+                    <p class="mb-2">خلايا غير متخصصة، سريعة الانقسام، مسؤولة عن النمو.</p>
+                    <strong>أنواعها:</strong>
+                    <ul class="custom-list">
+                        <li>نسيج قمي (في قمة الساق والجذر).</li>
+                        <li>نسيج بيني.</li>
+                        <li>نسيج جانبي.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="sub-title">ثانياً: الأنسجة المستديمة</h3>
+                    <p class="mb-2"><strong>البشرة (الجلد الخارجي):</strong> صف واحد منظم، طبقة شمعية واقية، يظهر فيها الثغور.</p>
+                    <strong>الثغور:</strong> فتحات لتبادل الغازات.
+                    <br>أشكالها: بيضاوي - دائري - نصفي.
+                    <br>(في الصحراوية تكون غائرة).
+                    <br>(فتحات محدبة على السيقان تساعد في تبادل الغازات والنتح العديسي).
+                </div>
+            </div>
+            <div class="mt-4 bg-gray-50 p-4 rounded">
+                <strong>أشكال الخلايا:</strong> سداسية ومتعددة الأضلاع - ممدودة وطويلة - متراصة (حسب نوع النسيج ووظيفته).
+                <br><strong>البلورات النباتية:</strong> الإبرة - النجمية - المتطاولة - المنشورية.
+            </div>
+        </section>
+
+        <!-- ================= التشريح الداخلي ================= -->
+        <section id="anatomy" class="section-box">
+            <div class="section-title">تلخيص الجزء الرابع: التركيب التشريحي (من ص 40)</div>
+
+            <div class="mb-8">
+                <h3 class="sub-title">التركيب التشريحي للجذور</h3>
+                <p class="mb-4">تنشأ الأنسجة الابتدائية من المرستيم القمي. قطاع عرضي في الشعيرات يتكون من (المحيط للمركز):</p>
+                <div class="space-y-4">
+                    <div class="bg-white p-4 border-r-4 border-green-500 rounded shadow-sm">
+                        <strong class="text-green-800">1 - البشرة (Epidermis):</strong>
+                        <br>صف واحد (أو متعدد في المغمورة). رقيقة الجدر لا كيوتيكل (للامتصاص). خلايا وبرية تتمايز لشعيرات.
+                        <br><span class="text-sm text-red-600">ملاحظة: عند الجفاف تظهر طبقة الأكسودرم (Exodermis) المكونة من طبقات بها سوبرين.</span>
+                    </div>
+                    <div class="bg-white p-4 border-r-4 border-green-500 rounded shadow-sm">
+                        <strong class="text-green-800">2 - القشرة (Cortex):</strong>
+                        <br>طبقات برنشيمية واسعة ومسافات بينية (تهوية - توصيل - تخزين).
+                        <br>الطبقة الداخلية تسمى <strong>إندودرم (Endodermis)</strong> وعليها <strong>شريط كاسبار (Casparian Strip)</strong> (يمنع مرور الماء بين الخلايا لضبط الامتصاص).
+                    </div>
+                    <div class="bg-white p-4 border-r-4 border-green-500 rounded shadow-sm">
+                        <strong class="text-green-800">3 - الأسطوانة الوعائية (Stele):</strong>
+                        <ul class="custom-list mt-2">
+                            <li><strong>البريسيكل (Pericycle):</strong> أسفل الاندودرم، برنشيمي، يعطي جذور جانبية. (مصدر للنسيج المولد الثانوي أحياناً).</li>
+                            <li><strong>الخشب واللحاء:</strong> الخشب (نجمة أو حرف Y) واللحاء بين أذرع الخشب.</li>
+                            <li><strong>النخاع:</strong> قد يوجد أو لا يوجد.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-6 overflow-x-auto">
+                    <h4 class="font-bold mb-2 text-green-800">مقارنة بين جذور ثنائي الفلقة ووحيد الفلقة (ص 44-45):</h4>
+                    <table class="w-full text-right border text-sm">
+                        <thead class="bg-green-100">
+                            <tr><th class="p-2 border">الخاصية</th><th class="p-2 border">جذر ثنائي الفلقة</th><th class="p-2 border">جذر أحادي الفلقة</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="p-2 border font-bold">الأكسودرم</td><td class="p-2 border">يوجد (طبقات)</td><td class="p-2 border">غير مميز (أقل خلايا)</td></tr>
+                            <tr><td class="p-2 border font-bold">البشرة</td><td class="p-2 border">رقيقة، لا كيوتيكل</td><td class="p-2 border">مغطاة أحياناً بطبقة رقيقة</td></tr>
+                            <tr><td class="p-2 border font-bold">شريط كاسبار</td><td class="p-2 border">واضح</td><td class="p-2 border">ضعيف أو لا يوجد</td></tr>
+                            <tr><td class="p-2 border font-bold">القشرة</td><td class="p-2 border">عريضة (عدة طبقات)</td><td class="p-2 border">أضيق (خلايا أقل)</td></tr>
+                            <tr><td class="p-2 border font-bold">الحزم الوعائية</td><td class="p-2 border">عادة من 4 إلى 8</td><td class="p-2 border">أكثر من 8</td></tr>
+                            <tr><td class="p-2 border font-bold">النخاع</td><td class="p-2 border">صغير أو معدوم</td><td class="p-2 border">موجود وواضح</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="sub-title">التركيب التشريحي للساق (ص 45-46)</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gray-50 p-4 rounded border">
+                        <strong class="text-lg block mb-2 text-center text-green-800">ساق ثنائي الفلقة</strong>
+                        <ul class="custom-list text-sm">
+                            <li><strong>البشرة:</strong> صف واحد كولنشيم حامي.</li>
+                            <li><strong>القشرة:</strong> أوسع من الجذر، تحتوي خلايا فلج بلاستي.</li>
+                            <li><strong>الحزم الوعائية:</strong> مرتبة في اسطوانة (نظام مفتوح بوجود كامبيوم).</li>
+                            <li><strong>الخشب:</strong> مرتب من الخارج للداخل بتدرج في الحجم.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded border">
+                        <strong class="text-lg block mb-2 text-center text-green-800">ساق أحادي الفلقة</strong>
+                        <ul class="custom-list text-sm">
+                            <li><strong>البشرة:</strong> طبقة واحدة (تحتها سكلرنشيم داعم).</li>
+                            <li><strong>القشرة:</strong> ضيقة وليس لها دور تخزيني.</li>
+                            <li><strong>الأسطوانة الوعائية:</strong> حزم <span class="highlight">متناثرة</span> (خاصية مميزة). مغلقة (لا كامبيوم).</li>
+                            <li><strong>النخاع:</strong> واسع وقد يكون متشبعاً أو مفقوداً.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4 bg-yellow-50 p-4 rounded border border-yellow-200">
+                    <strong>الاختلاف بين الجذر والساق في ثنائي الفلقة (ص 47):</strong>
+                    <br><strong>الجذر:</strong> بشرة رقيقة بشعيرات - قشرة عريضة - خشب ولحاء متبادل (أنصاف أقطار) - نخاع معدوم/صغير.
+                    <br><strong>الساق:</strong> بشرة بكيوتيكل (لا شعيرات) - قشرة أضيق - خشب ولحاء على نصف قطر واحد - نخاع موجود غالباً.
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h3 class="sub-title">التركيب التشريحي للورقة (ص 48-50)</h3>
+                <ul class="custom-list">
+                    <li><strong>1. بشرة عليا:</strong> مصمتة، عديمة الفجوات، تحتوي كيوتيكل (حماية من فقد الماء).</li>
+                    <li><strong>2. نسيج عمادي (Palisade):</strong> خلايا مستطيلة منتظمة، غنية بالبلاستيدات الخضراء (مسؤول عن البناء الضوئي).</li>
+                    <li><strong>3. نسيج إسفنجي (Spongy):</strong> خلايا غير منتظمة، مسافات واسعة (تهوية وتبادل غازات).</li>
+                    <li><strong>4. بشرة سفلية:</strong> تحتوي الثغور (مسؤولة عن النتح والتنفس).</li>
+                    <li><strong>5. حزم وعائية.</strong></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="sub-title">تأثير العوامل البيئية على تركيب النباتات (ص 50-53)</h3>
+                <p class="mb-4">العوامل: الحرارة - الرياح - رطوبة الوسط. (نباتات مائية - متوسطة - صحراوية).</p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-4 border rounded shadow-sm">
+                        <strong class="text-green-700 block mb-2">مميزات النباتات الصحراوية (مثل الكالوبوترا)</strong>
+                        <ul class="custom-list text-sm">
+                            <li>صغر المساحة السطحية للأوراق.</li>
+                            <li>زيادة سمك البشرة والخلايا الخارجية.</li>
+                            <li>تراكم السوبرين واللجنين.</li>
+                            <li>زيادة الفجوات العصارية لتخزين الماء.</li>
+                            <li>تقليل الثغور ووجودها في منخفضات.</li>
+                            <li>أنسجة تقوية كثيرة (سكلرنشيم وكولنشيم).</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-4 border rounded shadow-sm">
+                        <strong class="text-blue-700 block mb-2">مميزات نباتات المناطق الباردة (مثل الإيليوديا)</strong>
+                        <ul class="custom-list text-sm">
+                            <li>تركيب جذر ضعيف غير متخصص في الامتصاص.</li>
+                            <li>أوراق رقيقة لتسهيل مرور الغازات.</li>
+                            <li>قلة الأنسجة الداعمة.</li>
+                            <li>زيادة عدد البلاستيدات.</li>
+                            <li>انتشار الثغور على السطح العلوي.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-300 py-16 text-center border-t-8 border-green-600">
+        <div class="container mx-auto px-4">
+            <h3 class="text-2xl font-bold text-white mb-6">الحمد لله الذي هدانا لهذا وما كنا لنهتدي لولا أن هدانا الله</h3>
+            <div class="inline-block bg-slate-800 px-10 py-4 rounded-full border border-slate-700 mb-8">
+                <p class="text-green-400 font-bold text-lg">إعداد: عبدالرحمن احمد محمد مبروك 780</p>
+            </div>
+            <p class="text-sm opacity-60">اذكر الله وصلِ على النبي، وادعِ لي بالخير لو استفدت ♥</p>
+        </div>
+    </footer>
+
+</body>
+</html>
